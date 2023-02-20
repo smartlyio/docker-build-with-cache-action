@@ -265,4 +265,4 @@ build_image
 tag_image
 push_image_and_stages
 
-echo "name=FULL_IMAGE_NAME::$(_get_full_image_name)" >> $GITHUB_OUTPUT
+echo "name=FULL_IMAGE_NAME::$(_get_full_image_name)" >> "$GITHUB_OUTPUT"
